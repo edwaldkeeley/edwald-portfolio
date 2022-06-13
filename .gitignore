@@ -5,7 +5,7 @@ node_modules
 /.pnp
 .pnp.js
 
-/sanity_portfolio
+/edwald-portfolio-v2
 
 # testing
 /coverage
