@@ -32,7 +32,7 @@ const Navbar = () => {
 				{toggle && (
 					<motion.div
 						initial={{ width: 0 }}
-						animate={{ width: 400 }}
+						animate={{ width: 300 }}
 						transition={{ duration: 1, ease: 'easeOut' }}
 					>
 						<motion.span
@@ -43,7 +43,7 @@ const Navbar = () => {
 							<HiX onClick={e => handleOnClick(e)} />
 						</motion.span>
 						<ul className='app__navbar-links'>
-							{['home', 'about', 'contact', 'work', 'skills'].map(item => (
+							{['home', 'about','work','skills','contact' ].map(item => (
 								<li key={{ item }}>
 									<a href={`#${item}`} onClick={() => setToggle(false)}>
 										{item}
