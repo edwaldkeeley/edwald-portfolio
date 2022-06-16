@@ -40,7 +40,7 @@ const Footer = () => {
 
     return (
         <>
-            <h2 className='head-text'>chat with me</h2>
+            <h2 className='head-text'>Send a Message & chat with me</h2>
 
             <div className='app__footer-cards'>
                 <div className='app__footer-card'>
