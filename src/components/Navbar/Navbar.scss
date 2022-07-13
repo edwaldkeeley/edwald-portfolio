@@ -6,17 +6,13 @@
 	align-items: center;
 
 	padding: 1rem 2rem;
-	background: rgba(132, 130, 148, 0.25);
-	backdrop-filter: blur(5px);
-	-webkit-backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.18);
-	position: fixed;
 	z-index: 3;
 }
-
 .app__navbar-logo {
 	display: flex;
 	justify-content: flex-start;
+	flex:0.5;
 	align-items: center;
 
 	img {
@@ -28,6 +24,28 @@
 			height: 40px;
 		}
 	}
+}
+
+.app__navbar-right {
+	width: 35%;
+	height: 14%;
+
+	display: flex;
+	justify-content: flex-end;
+	flex: 0.5;
+	align-items: center;
+
+	padding: 1rem 2rem;
+	
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-bottom-left-radius: 50px;
+	z-index: 3;
+	position: fixed;
+	top: 0;
+	right: 0;	
+	background: rgba(132, 130, 148, 0.25);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 }
 
 .app__navbar-links {
